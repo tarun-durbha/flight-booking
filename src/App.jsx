@@ -112,7 +112,7 @@ const FlightSearch = () => {
         </div>
       </div>
       <footer className="footer">
-        <p>&copy; 2022 Flight Booking. All rights reserved.</p>
+        <p>&copy; 2024 Flight Booking. All rights reserved.</p>
       </footer>
     </div>
   );
