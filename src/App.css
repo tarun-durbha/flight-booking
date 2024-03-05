@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://3.imimg.com/data3/KX/KG/MY-15971343/flight-ticket-booking-500x500.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flight-search-container {
+  max-width: 800px;
+  margin: 160px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+
+.filter-section span {
+  color:white
+}
+.filter-section select {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 30px;
+  color: royalblue; /* Text color */
+}
+
+.filter-section select option {
+  margin-left: 30px;
+  padding-left: 10px; /* Add padding to the options */
+  color: royalblue; /* Text color */
+}
+
+.sort-section {
+  margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+
+.sort-section span {
+  color:white
+}
+
+.sort-section button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 50px
+}
+
+.sort-section button.active {
+  background-color: royalblue;
+}
+
+.flight-list {
+  list-style: none;
+  padding: 0;
+}
+
+.flight-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.flight-details {
+  margin-bottom: 10px;
+}
+
+.detail-row {
+  margin-bottom: 5px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.flight-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-airline {
+  font-weight: bold;
+}
+
+.flight-price {
+  font-weight: bold;
+}
+
+.flight-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.flight-table th,
+.flight-table td {
+  border: 1px solid royalblue;
+  padding: 8px;
+}
+
+.flight-table th {
+  background-color: #f2f2f2;
+  font-weight: 500px;
+  text-align: left;
+  color:royalblue
+}
+
+.flight-table td {
+  text-align: left;
+  
+}
+
+.flight-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+   
+}
+.flight-table tr:nth-child(odd) {
+  color: #f2f2f2;
+
+}
+
+.flight-table tr:hover ,
+.filter-section select:hover{
+  background-color: royalblue;
+  color:white
+}
+
+
+.header {
+   background-color: royalblue;
+  padding: 20px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+   color: white;
+  text-decoration: none;
+}
+
+.header-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  background-color: #0056b3;
+}
+
+
